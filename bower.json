@@ -1,0 +1,23 @@
+{
+  "name": "react-stream",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jobready/react-stream",
+  "authors": [
+    "Andrew McNamara <andrewm@jobready.com.au>"
+  ],
+  "description": "User Stream using React.js",
+  "main": "user-stream.js",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../",
+    "test",
+    "tests"
+  ]
+}

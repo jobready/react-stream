@@ -1,0 +1,29 @@
+React Stream
+==================
+
+Jobready User Stream implemented in React.
+
+
+
+    node --harmony /usr/local/bin/grunt
+
+## Installation
+
+- Install with Bower: `bower install react-dashboard`
+
+## Usage
+```javascript
+JobReady.ReactStream
+```
+
+# Packaging
+```
+node --harmony /usr/local/bin/gulp build
+```
+
+## Local Development
+
+- Install Bower `npm install -g bower`
+- Install packages `npm install`
+
+To run tests, run `node --harmony /usr/local/bin/gulp test`.
