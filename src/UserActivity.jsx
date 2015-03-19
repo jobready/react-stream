@@ -27,4 +27,4 @@ export class  UserActivity extends React.Component {
         );
     }
 }
-module.exports = UserActivity;
+module.exports = {UserActivity};

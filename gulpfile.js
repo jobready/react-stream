@@ -18,26 +18,6 @@ gulp.task('build', function () {
   .pipe(gulp.dest('dist'));
 });
 
-gulp.task('ftest', function () {
-    return gulp.src('**').pipe(debug({title:'monkey'})).pipe(jest({
-        scriptPreprocessor: "./test/support/jestPreprocessor.js",
-        unmockedModulePathPatterns: [
-            "node_modules/react"
-        ],
-        testDirectoryName: "test",
-        testPathIgnorePatterns: [
-            "node_modules",
-            "test/support"
-        ],
-        moduleFileExtensions: [
-            "jsx",
-            "js",
-            "json",
-            "react"
-        ]
-    }));
-});
-
 gulp.task('jest', function () {
     var nodeModules = path.resolve('./node_modules');
     return gulp.src('**')
